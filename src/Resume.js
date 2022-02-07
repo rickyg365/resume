@@ -1,6 +1,9 @@
 import "./Resume.css";
 import Header from "./components/header/Header.js";
 import Education from "./components/education/Education";
+import Skills from "./components/skills/Skills";
+import Projects from "./components/projects/Projects";
+import ExperienceS from "./components/experience/ExperienceS";
 
 // Import Sample Data
 import sample_data from "./sample.json";
@@ -33,6 +36,9 @@ function Resume() {
                 info={parsed_info}
             ></Header>
             <Education school_list={resume_data.schools}></Education>
+            <Skills></Skills>
+            <Projects></Projects>
+            <ExperienceS></ExperienceS>
         </div>
     );
 }
