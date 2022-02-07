@@ -1,4 +1,6 @@
 import "./Header.css";
+import u_seal from "./seal-small.svg";
+
 function Header(props) {
     return (
         <header className="Header">
@@ -8,7 +10,7 @@ function Header(props) {
                 {props.info}
             </div>
             <div className="header-img">
-                <img src="https://source.unsplash.com/random/128x128" alt="" />
+                <img src={u_seal} alt="" />
             </div>
         </header>
     );
