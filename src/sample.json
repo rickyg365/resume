@@ -1,7 +1,10 @@
 {
-    "name": "First Last",
+    "name": "FirstName LastName",
     "sub_titles": "Title 1 - Title 2 - Title 3",
-    "info": ["Adress Info", "Contact Info"],
+    "info": [
+        "Adress Info ( StreetNum StreetName City, State ZipCode )",
+        "Contact Info ( PhoneNum ● E-mail ● LinkedIn ● GitHub )"
+    ],
     "schools": [
         {
             "name": "School Name 1",
