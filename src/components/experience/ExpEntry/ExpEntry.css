@@ -1,3 +1,7 @@
+.ExpEntry-container {
+    line-height: 1.3;
+}
+
 .company-title {
 }
 
@@ -11,8 +15,7 @@
 }
 
 ul {
-    margin: 0;
-    list-style: none;
+    list-style-position: inside;
 }
 
 .point-item {

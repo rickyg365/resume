@@ -74,5 +74,43 @@
                 "key responsibility 4"
             ]
         }
+    ],
+    "projects": [
+        {
+            "name": "Project Name 1",
+            "description": "Brief Project Description",
+            "language": "Programing Language",
+            "tech": "Frameworks used",
+            "url": "sample_url. com",
+            "key_features": [
+                "Key Feature Description 1",
+                "Key Feature Description 2",
+                "Key Feature Description 3"
+            ]
+        },
+        {
+            "name": "Project Name 2",
+            "description": "Brief Project Description",
+            "language": "Programing Language",
+            "tech": "Frameworks used",
+            "url": "sample_url. com",
+            "key_features": [
+                "Key Feature Description 1",
+                "Key Feature Description 2",
+                "Key Feature Description 3"
+            ]
+        },
+        {
+            "name": "Project Name 3",
+            "description": "Brief Project Description",
+            "language": "Programing Language",
+            "tech": "Frameworks used",
+            "url": "sample_url. com",
+            "key_features": [
+                "Key Feature Description 1",
+                "Key Feature Description 2",
+                "Key Feature Description 3"
+            ]
+        }
     ]
 }

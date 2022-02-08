@@ -1,2 +1,9 @@
 .project-container {
+    line-height: 1.3;
+}
+
+.projects {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
 }

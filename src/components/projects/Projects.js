@@ -1,7 +1,21 @@
 import "./Projects.css";
+import Project from "./project/Project";
 
-function Project(props) {
-    return <div className="project-container"></div>;
+function Projects(props) {
+    // props.projects
+    let project_list = props.projects.map((project, index) => {
+        return <Project {...project} key={index}></Project>;
+    });
+
+    return (
+        <div className="project-container">
+            <div className="title-bar">
+                <h2 className="title">Projects</h2>
+                <hr className="style-one" />
+            </div>
+            <div className="projects">{project_list}</div>
+        </div>
+    );
 }
 
-export default Project;
+export default Projects;

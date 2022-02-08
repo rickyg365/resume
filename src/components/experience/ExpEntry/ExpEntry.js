@@ -3,7 +3,7 @@ function ExpEntry(props) {
     let point_list = props.points.map((point, index) => {
         return (
             <li className="point-item" key={index}>
-                ● {point}
+                {point}
             </li>
         );
     });
