@@ -44,5 +44,35 @@
                 "Class 3"
             ]
         }
+    ],
+    "skills": {
+        "skill_name1": "Skill description, Lorem ipsum dolor sit amet.",
+        "skill_name2": "Skill description",
+        "skill_name3": "Skill description",
+        "skill_name4": "Skill description"
+    },
+    "experience": [
+        {
+            "title": "Company Title 1",
+            "name": "Company Name 1",
+            "date_range": "Month 20XX-Month 20XX",
+            "points": [
+                "key responsibility 1",
+                "key responsibility 2",
+                "key responsibility 3",
+                "key responsibility 4"
+            ]
+        },
+        {
+            "title": "Company Title 2",
+            "name": "Company Name 2",
+            "date_range": "Month 20XX-Month 20XX",
+            "points": [
+                "key responsibility 1",
+                "key responsibility 2",
+                "key responsibility 3",
+                "key responsibility 4"
+            ]
+        }
     ]
 }

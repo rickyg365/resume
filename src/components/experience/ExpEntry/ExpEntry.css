@@ -1,0 +1,20 @@
+.company-title {
+}
+
+.company-name {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.company-date {
+    font-style: italic;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+
+.point-item {
+    padding-left: 2rem;
+}

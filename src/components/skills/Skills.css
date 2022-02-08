@@ -1,2 +1,10 @@
 .skills-container {
 }
+
+.skill-container {
+    font-weight: 600;
+}
+
+.skill-description {
+    font-weight: 500;
+}

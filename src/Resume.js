@@ -36,9 +36,9 @@ function Resume() {
                 info={parsed_info}
             ></Header>
             <Education school_list={resume_data.schools}></Education>
-            <Skills></Skills>
+            <Skills skills={resume_data.skills}></Skills>
             <Projects></Projects>
-            <ExperienceS></ExperienceS>
+            <ExperienceS experience={resume_data.experience}></ExperienceS>
         </div>
     );
 }
