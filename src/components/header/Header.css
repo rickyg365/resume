@@ -25,11 +25,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .name {
     font-size: 2.5rem;
+    justify-self: flex-start;
 }
 
 .sub-titles {

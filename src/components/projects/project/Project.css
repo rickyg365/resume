@@ -1,0 +1,38 @@
+.project-container {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+
+.first-row {
+    position: relative;
+    display: flex;
+    gap: 5px;
+}
+
+.proj-name {
+    font-weight: 600;
+}
+
+.proj-body {
+}
+
+.tag-1 {
+    /* position: absolute;
+    right: 75px; */
+}
+
+.tag-2 {
+    /* position: absolute;
+    right: 5px; */
+}
+
+.proj-description {
+}
+
+.proj-url {
+    font-style: italic;
+    font-weight: 550;
+    padding-top: 0.25rem;
+    color: #2774ae;
+}

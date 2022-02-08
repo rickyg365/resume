@@ -10,16 +10,17 @@ function Project(props) {
 
     return (
         <div className="project-container">
-            <h4 className="company-title">
-                {props.name},{" "}
-                <span className="company-name">{props.description} | </span>{" "}
-                <span className="company-date">
-                    {props.language}
-                    {props.tech}
-                </span>
-                {props.url}
-            </h4>
-            <ul className="points-container">{feature_list}</ul>
+            <div className="first-row">
+                <div className="proj-name">{props.name}</div>
+                <div className="tag-1">| {props.language}</div>
+                <div className="tag-2">| {props.tech}</div>
+            </div>
+            <div className="proj-body">
+                <div className="proj-description">{props.description}</div>
+                <ul className="feature-container">{feature_list}</ul>
+            </div>
+
+            <div className="proj-url">{props.url} </div>
         </div>
     );
 }
