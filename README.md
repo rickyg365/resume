@@ -1,6 +1,11 @@
 # Resume
 A Resume Template Built with react, reads in data from a json config file.
 
+<br>
+<hr>
+
+#### Example json config -> [sample.json](./src/sample.json)
+
 
 ## Future Plans
 - Refactor for Best Practices
