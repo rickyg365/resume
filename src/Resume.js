@@ -37,8 +37,8 @@ function Resume() {
             ></Header>
             <Education school_list={resume_data.schools}></Education>
             <Skills skills={resume_data.skills}></Skills>
-            <Projects projects={resume_data.projects}></Projects>
             <ExperienceS experience={resume_data.experience}></ExperienceS>
+            <Projects projects={resume_data.projects}></Projects>
         </div>
     );
 }
