@@ -6,10 +6,9 @@ import Projects from "./components/projects/Projects";
 import ExperienceS from "./components/experience/ExperienceS";
 
 // Import Sample Data
-import sample_data from "./sample.json";
+import resume_data from "./sample.json";
 
 // Import Personal Data if it exists
-let resume_data = sample_data;
 const resume_path = "./resume.json";
 
 try {
