@@ -1,0 +1,94 @@
+{
+    "name": "Ricardo Gonzalez",
+    "sub_titles": "Frontend Software Developer",
+    "info": [
+        "Location: Bay Area, CA",
+        "https://www.linkedin.com/in/rickygonzal3z ● rickygonzal3z@gmail.com ● https://github.com/rickyg365"
+    ],
+    "schools": [
+        {
+            "name": "University of California, Los Angeles",
+            "city": "Los Angeles",
+            "state": "CA",
+            "grad_month": "Fall",
+            "grad_year": "2022",
+            "degree_title": "Earth and Environmental Sciences, B.A.",
+            "coursework": [
+                "Mineralogy",
+                "Seismology",
+                "Structural Geology",
+                "Igneous Petrology",
+                "Complex Analysis",
+                "Linear Algebra"
+            ]
+        }
+    ],
+    "skills": {
+        "HTML & CSS": "Tailwind - Bootstrap",
+        "Javascript": "NextJS - ExpressJS - React - ES6 - Redux",
+        "Python": "Flask - Pandas - Bs4",
+        "Other": "Firebase - Git"
+    },
+    "experience": [
+        {
+            "title": "Front of House - Guest Services",
+            "name": "UCLA Housing and Hospitality",
+            "date_range": "August 2018-July 2020",
+            "points": [
+                "Serve as first point of contact and ensure guest satisfaction throughout their stay",
+                "Report maintenance issues and put in service request via maximo, as well as escelating more pressing issues to managers",
+                "Supported other teams, such as Access Control(Security), HouseKeeping, Maintenance, Resident Staff, Third-Party Contracters",
+                "Log and Maintain, Laundry and Elevator sytems and escelate any issues to management, as well as put in service requset to maintenance and contacting third-party services"
+            ]
+        },
+        {
+            "title": "Administrative Secretary",
+            "name": "MarLu Construction",
+            "date_range": "Month 2018-Month 2018",
+            "points": [
+                "Created and maintained detailed construction project timelines on a day to day, weekly, and monthly basis",
+                "Coordinated and scheduled concrete ready-mix orders with material suppliers, ensuring product arrival",
+                "Communicated with clients, employees, and material suppliers to consistently inform each group of current and upcoming job details via phone and email",
+                "Created estimates and invoices for each construction job and emailed to clients in a timely manner."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Gruntled",
+            "description": "A simple chrome extension that records your reaction to  youtube videos!",
+            "language": "Javascript, HTML, CSS",
+            "tech": "Chrome Extension",
+            "url": "https://github.com/borntonguyen/Gruntled",
+            "key_features": [
+                "Record your reaction and share it with your friends.",
+                "Combine it into a single video",
+                "*Coming Soon* convert between different database languages"
+            ]
+        },
+        {
+            "name": "Dashboard Utility",
+            "description": "A simple dashboard with customizable components, configuration is stored as cookies",
+            "language": "Javascript",
+            "tech": "React",
+            "url": "https://react-rickyg365.vercel.app",
+            "key_features": [
+                "Save Custom setup in your browsers cookies! *Coming Soon*",
+                "Constantly Adding new components",
+                "Responsive"
+            ]
+        },
+        {
+            "name": "Console-RPG",
+            "description": "Created a simple console based module to create simple games.",
+            "language": "Python",
+            "tech": "",
+            "url": "https://github.com/rickyg365/con-rpg",
+            "key_features": [
+                "Turn based combat!",
+                "Jobs, Classes, and Skills!",
+                "100% Console Text Based"
+            ]
+        }
+    ]
+}
