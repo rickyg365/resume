@@ -6,7 +6,7 @@ function ExperienceS(props) {
         return <ExpEntry {...exp} key={index}></ExpEntry>;
     });
     return (
-        <div className="experience-container">
+        <div className="experience-container" contentEditable="true">
             <div className="title-bar">
                 <h2 className="title">Experience</h2>
                 <hr className="style-one" />

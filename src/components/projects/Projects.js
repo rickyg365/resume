@@ -8,7 +8,7 @@ function Projects(props) {
     });
 
     return (
-        <div className="project-container">
+        <div className="project-container" contentEditable="true">
             <div className="title-bar">
                 <h2 className="title">Projects</h2>
                 <hr className="style-one" />

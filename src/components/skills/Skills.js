@@ -13,7 +13,7 @@ function Skills(props) {
         }
     );
     return (
-        <div className="skills-container">
+        <div className="skills-container" contentEditable="true">
             <div className="title-bar">
                 <h2 className="title">Skills & Abilities</h2>
                 <hr className="style-one" />

@@ -17,7 +17,7 @@ function Education(props) {
     });
 
     return (
-        <div className="education-container">
+        <div className="education-container" contentEditable="true">
             <div className="title-bar">
                 <h2 className="title">Education</h2>
                 <hr className="style-one" />
